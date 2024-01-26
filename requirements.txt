@@ -1,0 +1,17 @@
+Chroma==0.2.0
+chroma-hnswlib==0.7.3
+chromadb==0.3.29
+huggingface-hub==0.20.3
+langchain==0.1.4
+langchain-community==0.0.16
+langchain-core==0.1.16
+langsmith==0.0.83
+pydeck==0.8.1b0
+pypdf==4.0.0
+PyPDF2==3.0.1
+sentence-transformers==2.2.2
+sentencepiece==0.1.99
+streamlit==1.30.0
+tiktoken==0.5.2
+tokenizers==0.15.1
+transformers==4.37.1
