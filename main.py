@@ -6,12 +6,10 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain_community.llms import HuggingFaceHub
 from langchain_community.vectorstores import Chroma
 import warnings
-import os
 
 warnings.filterwarnings("ignore", category=UserWarning)
 
 load_dotenv()
-huggingfacehub_api_token = os.getenv("HUGGINGFACEHUB_API_TOKEN")
 
 
 st.title("Betterzilla Assignment")
