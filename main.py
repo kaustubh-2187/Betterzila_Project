@@ -11,7 +11,7 @@ import os
 warnings.filterwarnings("ignore", category=UserWarning)
 
 load_dotenv()
-hf_api_key = os.getenv("HUGGINGFACEHUB_API_TOKEN")
+huggingfacehub_api_token = os.getenv("HUGGINGFACEHUB_API_TOKEN")
 
 
 st.title("Betterzilla Assignment")
